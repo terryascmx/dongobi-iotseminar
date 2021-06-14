@@ -33,5 +33,5 @@
 * Jeffrey Dean - MapReduce 참여, Spanner, BigTable 등 대단한 분산 기반의 프레임워크들을 직접 진두지휘한 사람
 * 그래서 "Large Scale" , "Heterogeneous" 같은 엄청난 단어들이 논문 제목으로
 * 따라서 TensorFLow 도 애초에 Session이라는 기존에 이미 구축되어 있는 cluster에 접속하는 형태로 ( 비록 간단한 모델일지라도 ) cluster에 모델을 초기화하고 Data를 feed 해서 학습하는 구조로 되어 있음
-* 분산 아키텍쳐는 PS( parameter server ) , WORKER( computing ) 으로 분뢰될 수 있고 위 노드간 통신을 위해 grpc를 사용하고 직렬화를 위해 protobuf를 사용
+* 분산 아키텍쳐는 PS( parameter server ) , WORKER( computing ) 으로 분리 될 수 있고 위 노드간 통신을 위해 grpc를 사용하고 직렬화를 위해 protobuf를 사용
 * Model Parallel , Data Parallel , Synchronous / Asynchronous Parallelism
