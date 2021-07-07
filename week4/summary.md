@@ -67,15 +67,28 @@
     
 # 4. 스마트 홈 서비스의 문제점  
 
-    - 높은 소유비용 : 스마트 홈을 구성하기까지 비용이 비싸다
-    - 유연하지 못한 연결성 : 호환 되는 장비들을 구성하기 어렵다.
-    - 관리 : 전체 시스템을 관리하는데 전문성들이 필요하다
-    - 보안 : 신뢰할 만한 수준의 보안을 제공해주지 않는다.         
-     참고 문헌 : https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/HomeOSCHI_cameraready_Final.pdf
-    
-    오래 전에 작성된 논문으로 현재의 상황을 반영해주는데는 다소 무리가 있다 하겠지만
-    이 내용이 시사해주는 점이 있다.
-    위의 문제들 중 지금 작성하고 있는 포켓의 장단점을 토의 하고 개선점을 도출해보자.
+   - 높은 소유비용 : 스마트 홈을 구성하기까지 비용이 비싸다
+- 유연하지 못한 연결성 : 호환 되는 장비들을 구성하기 어렵다.
+- 관리 : 전체 시스템을 관리하는데 전문성들이 필요하다
+- 보안 : 신뢰할 만한 수준의 보안을 제공해주지 않는다.         
+ 참고 문헌 : https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/HomeOSCHI_cameraready_Final.pdf    
+
+오래 전에 작성된 논문으로 현재의 상황을 반영해주는데는 다소 무리가 있다 하겠지만
+이 내용이 시사해주는 점이 있다.
+위의 문제들 중 지금 작성하고 있는 포켓의 장단점을 토의 하고 개선점을 도출해보자.
+
+- 현재 기술만으로는 스마트홈과 AI의 접목은 시너지가 크지 않다
+- 새로 개발될 기술, 센서, 로봇 등의 조합이 중요하다
+- 스마트 홈의 수집 데이터는 주거환경 생활패턴에 따라 크게 달라진다.
+- HAR(Human Activity Recognition)의 역할이 커질 수록 관련 법령들에 대한 개선도 함께 진행되어야 한다.
+
+Key Pointers for any Smart Home System
+- Data security and privacy (데이터 보안 및 개인정보 보호)
+- Proper integration of AI and IoT (AI 기술의 IoT 로의 통합)
+- Interoperability (상호 운용성)
+- Better customer support (고객에 대한 더 나은 대응)
+- Integration with voice controls (음성 제어 통합)
+[출처 : https://qualetics.com/how-ai-iot-is-driving-intelligence-automation-in-smart-homes/]
     
 
 # 5. 산업용 사물인터넷은 첨부파일로 대체
